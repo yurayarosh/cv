@@ -1,0 +1,21 @@
+{
+  "name": "cv",
+  "version": "1.0.0",
+  "scripts": {
+    "ghpages": "git subtree push --prefix build origin gh-pages",
+    "build": "gulp build --production",
+    "start": "gulp"
+  },
+  "authors": "yurayarosh",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-cheerio": "^1.0.0",
+    "gulp-cheerio-clean-svg": "github:Hiswe/gulp-cheerio-clean-svg",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-svgmin": "^2.2.0"
+  },
+  "dependencies": {}
+}
