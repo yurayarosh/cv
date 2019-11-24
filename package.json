@@ -2,8 +2,7 @@
   "name": "cv",
   "version": "1.0.0",
   "scripts": {
-    "ghpages": "git subtree push --prefix build origin gh-pages",
-    "build": "gulp build --production",
+    "build": "gulp build",
     "start": "gulp"
   },
   "authors": "yurayarosh",

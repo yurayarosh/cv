@@ -19,14 +19,19 @@ const config = {
     css: './build/css',
     iconsHTML: './src/iconsHTML'
   },
-};
+}
 
-// ==================================== html =====================================
-gulp.task('html', () => gulp
-  .src(`${config.src.root}/*.html`)
+// ==================================== clean =====================================
+gulp.task('clean', () => del([
+  `${config.dest.root}/**/*.*`,
+]))
+
+// ==================================== copy =====================================
+gulp.task('copy', () => gulp
+  .src(`${config.src.root}/*.*`)
   .pipe(gulp.dest(config.dest.root)))
-gulp.task('html:watch', () => gulp
-  .watch(`${config.src.root}/**/*.html`, gulp.parallel('html')))
+gulp.task('copy:watch', () => gulp
+  .watch(`${config.src.root}/**/*.html`, gulp.series('copy')))
 
 // ==================================== sass =====================================
 gulp.task('sass',  () => gulp
@@ -51,14 +56,14 @@ gulp.task('server', done => {
     port: 8080,
     notify: false,
     open: false,
-  });
-  done();
+  })
+  done()
 })
 
 // ==================================== svg icons =====================================
 gulp.task('svgicons:clean', () => del([
-  `${config.src.iconsHTML}/*.html`,
-]));
+  `${config.dest.iconsHTML}/*.html`,
+]))
 
 gulp.task('svgicons:create', () => gulp
   .src(`${config.src.icons}/*.svg`)
@@ -99,10 +104,10 @@ gulp.task('svgicons:create', () => gulp
       const h = +svg.attr('height') || +svg.attr('viewBox').split(' ')[3]
       const w = +svg.attr('width') || +svg.attr('viewBox').split(' ')[2]
       if (!svg.attr('viewBox')) {
-        svg.attr('viewBox', `0 0 ${w} ${h}`);
-      };
-      const height = '1em';
-      const width = `${(w / h).toFixed(3)}em`;
+        svg.attr('viewBox', `0 0 ${w} ${h}`)
+      }
+      const height = '1em'
+      const width = `${(w / h).toFixed(3)}em`
 
       svg.attr('class', `icon icon-${iconName}`)
       svg.attr('width', width)
@@ -121,12 +126,12 @@ gulp.task('svgicons', gulp.series(['svgicons:clean', 'svgicons:create']))
 gulp.task('svgicons:watch', () => gulp
   .watch(`${config.src.icons}/**/*.svg`, gulp.parallel('svgicons')))
 
-
 // ==================================== main init =====================================
 gulp.task(
   'build',
   gulp.parallel(
-    'html',
+    'clean',
+    'copy',
     'sass',
     'svgicons'
   ),
@@ -134,7 +139,7 @@ gulp.task(
 gulp.task(
   'watch',
   gulp.parallel(
-    'html:watch',
+    'copy:watch',
     'sass:watch',
     'svgicons:watch'
   ),
