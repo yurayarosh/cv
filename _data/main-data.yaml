@@ -25,8 +25,8 @@ blocks:
         text: '09/2007 – 05/2012'
       - title: 'School:'
         text: 'National transport university'
-      - title: 'Department:'
-        text: 'Development, repair and material science'
+      - title: 'Speciality:'
+        text: 'Manufacturing, repair and restoration of vehicles'
   - title: Stack I know, use, or heard about
     text: Nunjucks, Pug/Jade, Sass/Scss, BEM, W3C, JSLint, NPM, Gulp, Webpack, Rollup, Git, Sublime Text, VS Code, Photoshop, Figma, Avocode, Zeplin, Invision
   - title: Some works i' m proud of (or was at least for some time)
