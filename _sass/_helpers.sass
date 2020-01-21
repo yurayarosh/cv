@@ -1,11 +1,14 @@
 $black: #000
 $white: #fff
-$gray: #757575
+$gray:  #757575
 
-$fz: 16px
+$fz:    16px
 $fz-sm: 14px
 
 =sm
   @media (max-width: 767px)
     @content
-    
+
+=smmin
+  @media (min-width: 768px)
+    @content

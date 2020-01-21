@@ -1,0 +1,34 @@
+{% assign data = site.data.main-data %}
+
+{% for i in data.blocks %}
+<!-- begin resume-block -->
+<div class="resume-block{% if i.mod %} {{ i.mod }}{% endif %}">
+  {% if i.title %}
+    <h3 class="resume-block__title title title--h3">{{ i.title }}</h3>
+  {% endif %}
+
+  <div class="resume-block__text">
+  {% if i.text %}{{ i.text }}{% endif %}
+  
+  {% if i.links %}
+    {% for j in i.links %}
+    <p><a href="{{ j.href }}" target="_blank">{{ j.href }}</a></p>
+    {% endfor %}
+  {% endif %}
+
+  {% if i.metaList %}
+    {% for j in i.metaList %}
+    <!-- begin experience -->
+    <dl class="experience">
+      {% for k in j.meta %}
+      <dt class="experience__title">{{ k.title }}</dt>
+      <dd class="experience__text">{{ k.text }}</dd>
+      {% endfor %}
+    </dl>
+    <!-- end experience -->
+    {% endfor %}
+  {% endif %}
+  </div>
+</div>
+<!-- end resume-block -->
+{% endfor %}
