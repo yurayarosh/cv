@@ -1,7 +1,7 @@
 title: Yurii Yaroshenko
 blocks:
   - text: Hello, my name is Yurii – pleased to meet you! I’m working with html/css/js - that’s pretty much it. Now i’m open to interesting job offer, so if you’re ready to spend a couple of minutes – you can find some info below.
-    mod: resume-block--full
+    fullWidth: true
   - title: Work experience
     metaList:
       - meta:
@@ -35,10 +35,10 @@ blocks:
         title: https://demiweb.pro
       - href: https://optimum.red
         title: https://optimum.red
-      - href: https://demiweb.github.io/baget
-        title: https://demiweb.github.io/baget
-      - href: http://vision.demiweb.pro
-        title: http://vision.demiweb.pro
+      - href: https://vhinternational.tv/
+        title: https://vhinternational.tv/
+      - href: http://beget.demiweb.pro/
+        title: http://beget.demiweb.pro/   
       - href: http://kvevri.demiweb.pro
         title: http://kvevri.demiweb.pro
       - href: http://abs.demiweb.pro
@@ -61,5 +61,5 @@ blocks:
         title: Github
   - title: What i' m trying to learn now
     text: Canvas and using Pixi.js, React, Vue
-  - mod: resume-block--full
+  - fullWidth: true
     text: <p>I can add, I'd like to work on new interesting and challenging projects. I'd even kinda enjoy that, in some weird way. So, if you have some, I'm ready to handle with them.</p><p>Well, that's probably it for now. Tanks for reading this and have a nice day!</p>

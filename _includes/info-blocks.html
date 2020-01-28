@@ -2,7 +2,7 @@
 
 {% for i in data.blocks %}
 <!-- begin resume-block -->
-<div class="resume-block{% if i.mod %} {{ i.mod }}{% endif %}">
+<div class="resume-block{% if i.fullWidth %} resume-block--full{% endif %}">
   {% if i.title %}
     <h3 class="resume-block__title title title--h3">{{ i.title }}</h3>
   {% endif %}

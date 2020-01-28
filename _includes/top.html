@@ -1,10 +1,10 @@
-{% assign mainInfo = site.data.main-info %}
+{% assign top = site.data.top %}
 
 <!-- begin tesume__top -->
 <div class="resume__top">
   <!-- begin meta-list -->
   <ul class="meta-list">
-  {% for i in mainInfo.items %}
+  {% for i in top.items %}
     <li class="meta-list__item">
       <div class="meta-list__icon">
         {% include iconsHTML/_{{ i.icon }}.html %}
