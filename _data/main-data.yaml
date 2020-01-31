@@ -28,7 +28,7 @@ blocks:
       - title: 'Speciality:'
         text: 'Manufacturing, repair and restoration of vehicles'
   - title: Stack I know, use, or heard about
-    text: Nunjucks, Pug/Jade, Sass/Scss, BEM, W3C, JSLint, NPM, Gulp, Webpack, Rollup, Git, Sublime Text, VS Code, Photoshop, Figma, Avocode, Zeplin, Invision
+    text: Nunjucks, Pug/Jade, Sass/Scss, BEM, Vue.js, W3C, JSLint, NPM, Gulp, Webpack, Rollup, Git, Photoshop, Figma
   - title: Some works i' m proud of (or was at least for some time)
     links: 
       - href: https://demiweb.pro
