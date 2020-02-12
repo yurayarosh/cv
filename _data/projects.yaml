@@ -3,7 +3,7 @@ title: Projects
 metaBlocks:
   - meta:
     - title: '<a href="http://beget.demiweb.pro/" target="_blank">Цнтр. багет</a>'
-      text: 'Chalenging task was to add custom smooth scrolling to site. To optimize and remove bugs, after removing native scrolling were added some scripts, were used modern capabilities, such as <code>IntersectionObserver</code> and <code>MutationObserver</code> .'
+      text: 'Chalenging task was to add custom smooth scrolling to site. It should be working depending on screen width, user device or page, that user on. Were used modern methods, such as <code>IntersectionObserver</code> and <code>MutationObserver</code> .'
   - meta:
     - title: '<a href="http://mario-new.demiweb.pro/" target="_blank">Mario</a>'
       text: 'Main challenge was to create animation, using video and its frames on <a href="http://mario-new.demiweb.pro/about-mario/">About page</a>. To make it were used <code>Canvas</code>, <code>position: stiky</code>, <code>scroll</code> event, and <code>IntersectionObserver</code> to delay loading content. Also, for optimization, depending on screen width and device, there are different types of animation.'
