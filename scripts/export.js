@@ -68,9 +68,10 @@ const convert = async () => {
 const getResumesFromDirectories = () => {
   const directories = getDirectories()
   return directories.map(dir => {
-    const fileName = dir.replace('.html', '')
+    const filePath = dir.replace('.html', '')
+    const fileName = 'Yurii_Yaroshenko_CV'
     return {
-      path: fileName,
+      path: filePath,
       name: fileName,
     }
   })
