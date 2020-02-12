@@ -1,0 +1,28 @@
+<!-- begin meta-blok -->
+<div class="main-meta__block meta-block">
+  {% if block.icon %}
+  <div class="meta-block__icon">{{ block.icon }}</div>
+  {% endif %}
+  
+  <h2 class="meta-block__title">{{ block.title }}</h2>
+
+  <div class="meta-block__content">
+    {% if block.metaBlocks %}
+      {% for i in block.metaBlocks %}
+        {% for j in i.meta %}
+        <!-- begin experience -->
+        <div class="meta-block__block experience">
+          <h3 class="experience__title">{{ j.title }}</h3>
+          <div class="experience__subttl">{{ j.subttl }}</div>
+          {% if j.time %}
+            <div class="experience__time"> {{ j.time }}</div>
+          {% endif %}
+          <div class="experience__text"> {{ j.text }}</div>          
+        </div>
+        <!-- end experience -->
+        {% endfor %}
+      {% endfor %}
+    {% endif %}
+  </div>
+</div>
+<!-- end meta-blok -->  

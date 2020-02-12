@@ -7,18 +7,5 @@ layout: default
 
 {% assign mainData = site.data.main-data %}
 
-<!-- begin resume -->
-<div class="resume">
-  <div class="container">
-    <div class="resume__inner">
-      <h1 class="resume__title title title--h1">{{ mainData.title }}</h1>
-
-      <div class="resume__content">
-        {% include top.html %}
-
-        {% include info-blocks.html %}
-      </div>      
-    </div>
-  </div>
-</div>
-<!-- end resume -->
+{% include aside.html %}
+{% include body.html %}

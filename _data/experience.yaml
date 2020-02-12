@@ -1,0 +1,13 @@
+icon: 'work'
+title: Work experience
+metaBlocks:
+  - meta:
+    - title: 'Frontend developer'
+      subttl: '<a href="https://demiweb.pro/" target="_blank">"Demiweb"</a>'
+      time: '04/2019 – present time'
+      text: 'description'
+  - meta:
+    - title: 'Junior frontend developer, Frontend developer'
+      subttl: '<a href="http://riverco.de/" target="_blank">"Coderiver"</a>'
+      time: '08/2017 – 03/2019'
+      text: 'description'

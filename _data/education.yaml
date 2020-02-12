@@ -1,0 +1,9 @@
+icon: 'education'
+title: Education
+metaBlocks:
+  - meta:
+    - title: Master's degree
+      subttl: 'National Transport University'
+      time: '09/2007 – 05/2012'
+      text: 'Manufacturing, repair and restoration of vehicles'
+    

@@ -1,0 +1,16 @@
+{
+  "name": "cv",
+  "version": "1.0.0",
+  "description": "My awesome CV",
+  "author": "yurayarosh",
+  "license": "MIT",
+  "scripts": {
+    "pdf": "node scripts/export.js",
+    "dev": "bundle exec jekyll serve",
+    "build": "jekyll build"
+  },
+  "devDependencies": {
+    "puppeteer": "^2.1.1",
+    "rxjs": "^6.5.4"
+  }
+}

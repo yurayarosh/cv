@@ -1,0 +1,16 @@
+icon: 'projects'
+title: Projects
+metaBlocks:
+  - meta:
+    - title: 'Цнтр. багет'
+    - subttl: http://beget.demiweb.pro/
+    - text: ''
+  - meta:
+    - title: 'Mario'
+    - subttl: 'http://mario-new.demiweb.pro/'
+    - text: ''
+  - meta:
+    - title: 'Optimum Led'
+    - subttl: 'https://optimum.red'
+    - text: ''
+    

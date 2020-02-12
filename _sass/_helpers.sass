@@ -1,9 +1,15 @@
-$black: #000
-$white: #fff
-$gray:  #757575
+$black:  #000
+$white:  #fff
+$gray:   #757575
+$accent: #000
 
-$fz:    16px
-$fz-sm: 14px
+$fz-base:    16
+$fz-base-sm: 14
+$fz:         $fz-base + px
+$fz-sm:      $fz-base-sm + px
+
+\:root
+  --accent: $accent
 
 =sm
   @media (max-width: 767px)
@@ -12,3 +18,10 @@ $fz-sm: 14px
 =smmin
   @media (min-width: 768px)
     @content
+
+@function em($size, $context: $fz-base)
+  @return ($size/$context) * 1em
+
+@function rem($size, $context: $fz-base)
+  @return ($size/$context) * 1rem
+  

@@ -1,0 +1,9 @@
+links:
+  - title: 'Custom select'
+    href: 'https://www.npmjs.com/package/select-custom'
+  - title: 'Fullpage pagination'
+    href: 'https://www.npmjs.com/package/fullpage-pagination'
+  - title: 'Popup'
+    href: 'https://www.npmjs.com/package/popup-simple'
+  - title: 'Animate in viewport'
+    href: 'https://www.npmjs.com/package/js-anim'

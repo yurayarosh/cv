@@ -1,0 +1,15 @@
+{% assign other = site.data.other %}
+
+<!-- begin meta-blok -->
+<div class="main-meta__block meta-block">
+  <div class="meta-block__icon">other</div>
+  
+  <h2 class="meta-block__title">My npm packages</h2>
+
+  <div class="meta-block__content">
+    {% for i in other.links %}
+    <p><a href="{{ i.href }}">{{ i.title }}</a></p>
+    {% endfor %}
+  </div>
+</div>
+<!-- end meta-blok -->

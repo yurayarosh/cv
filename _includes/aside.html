@@ -1,0 +1,28 @@
+{% assign contacts = site.data.contacts %}
+
+<!-- begin aside -->
+<aside class="layout__aside aside">
+  <h1 class="aside__title title">Yurii Yaroshenko</h1>
+
+  <div class="aside__subttl">
+    Fronted developer
+  </div>
+
+  <div class="aside__block">
+    Hello, my name is Yurii – pleased to meet you! I’m working with html/css/js - that’s pretty much it. Now i’m open to interesting job offer.
+    I'd like to work on new interesting and challenging projects. I'd even kinda enjoy that, in some weird way. So, if you have some, I'm ready to handle with them.
+  </div>
+
+  <ul class="aside__block contacts">
+    {% for i in contacts %}
+    <li class="contacts__contact contact">
+      <div class="contact__icon">
+
+      </div>
+      <div class="contact__title" title="{{ i.title }}">{{ i.text }}</div>
+    </li>
+    {% endfor %}
+  </ul>
+</aside>
+<!-- end aside -->
+
