@@ -1,22 +1,38 @@
 $black:  #000
 $white:  #fff
-$light:   #eee
+$light:  #eee
 $accent: #000
 
-$fz-base:    16
-$fz-base-sm: 14
-$fz:         $fz-base + px
-$fz-sm:      $fz-base-sm + px
+$fz-base:     16
+$fz-base-sm:  14
+$fz-base-xxl: 18
+$fz-xxl:      $fz-base-xxl + px
+$fz:          $fz-base + px
+$fz-sm:       $fz-base-sm + px
 
-\:root
-  --accent: $accent
+
+=xs
+  @media (max-width: 575px)
+    @content
 
 =sm
   @media (max-width: 767px)
     @content
 
+=xxl
+  @media (max-width: 1919px)
+    @content
+
+=xsmin
+  @media (min-width: 576px)
+    @content
+  
 =smmin
   @media (min-width: 768px)
+    @content
+
+=xxlmin
+  @media (min-width: 1920px)
     @content
 
 @function em($size, $context: $fz-base)
