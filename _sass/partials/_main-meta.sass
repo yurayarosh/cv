@@ -1,4 +1,7 @@
 .main-meta
+  &__block
+    &:not(:last-child)
+      margin-bottom: rem(30)
 
 .meta-block
   position: relative
@@ -6,9 +9,16 @@
   &__icon
     position: absolute
     z-index: 1
-    top: 0
+    top: .2em
     left: 0
+    font-size: em(24)
+    &.icon--all-done
+      fill: transparent
+      path:nth-child(2)
+        fill: currentColor
+
   &__title
     margin-bottom: rem(15)
   &__block
-    margin-bottom: rem(15)
+    &:not(:last-child)
+      margin-bottom: rem(15)

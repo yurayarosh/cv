@@ -1,24 +1,30 @@
+{% assign general = site.data.general %}
 {% assign contacts = site.data.contacts %}
 
 <!-- begin aside -->
 <aside class="layout__aside aside">
-  <h1 class="aside__title title">Yurii Yaroshenko</h1>
+  <h1 class="aside__title title title--h1">{{ general.title }}</h1>
 
   <div class="aside__subttl">
-    Fronted developer
+    <div class="aside-text">{{ general.position }}</div>
+    <div class="aside__text">{{ general.salary }}</div>
   </div>
 
-  <div class="aside__block">
-    Hello, my name is Yurii – pleased to meet you! I’m working with html/css/js - that’s pretty much it. Now i’m open to interesting job offer.
-    I'd like to work on new interesting and challenging projects. I'd even kinda enjoy that, in some weird way. So, if you have some, I'm ready to handle with them.
-  </div>
+  
+
+  <div class="aside__block">{{ general.hello }}</div>
 
   <ul class="aside__block contacts">
     {% for i in contacts %}
     <li class="contacts__contact contact">
-      <div class="contact__icon">
-
+      <div class="contact__icons">
+        {% for j in i.icons %}
+        {% assign mod = 'contact__icon' %}
+        {% include iconsHTML/_{{ j.icon }}.html %}
+        {% endfor %}
       </div>
+      
+      
       <div class="contact__title" title="{{ i.title }}">{{ i.text }}</div>
     </li>
     {% endfor %}

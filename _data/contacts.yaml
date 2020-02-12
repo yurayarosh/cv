@@ -1,15 +1,22 @@
-- icon: phone
+- icons: 
+    - icon: phone
+    - icon: viber
+    - icon: telegram
   title: phone, telegram, viber
   text: <a href="tel:+380987486978">+38(098)748-69-78</a>
-- icon: skype
+- icons:
+    - icon: skype
   title: skype
   text: <a href="skype:yura1-2?chat">yura1-2</a>
-- icon: email
+- icons:
+    - icon: email
   title: email
   text: <a href="mailto:yura12323@gmail.com">yura12323@gmail.com</a>
-- icon: github
+- icons:
+    - icon: github
   title: github
   text: <a href="https://github.com/yurayarosh" target="_blank">yurayarosh</a>
-- icon: sandbox
+- icons:
+    - icon: codesandbox
   title: codesandbox
   text: <a href="https://codesandbox.io/u/yurayarosh/sandboxes" target="_blank">Codesandbox</a>

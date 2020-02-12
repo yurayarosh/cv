@@ -13,10 +13,27 @@ body
 a
   color: inherit
   transition: color 300ms
-  &:hover
-    color: $gray
+
+code
+  display: none
+  background-color: $light
+  display: inline-block
+  padding: 0 .3em
 
 .icon
   display: inline-block  
   vertical-align: baseline
   fill: currentColor
+
+.title
+  display: block
+  font-weight: 700
+  text-transform: uppercase
+  &--h1
+    font-size: 2em
+  &--h2
+    font-size: 1.5em
+  &--h3
+    font-size: 1.2em
+    text-transform: none
+    

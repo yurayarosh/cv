@@ -2,9 +2,11 @@
 
 <!-- begin meta-blok -->
 <div class="main-meta__block meta-block">
-  <div class="meta-block__icon">other</div>
+  {% assign mod = 'meta-block__icon' %}
+    {% include iconsHTML/_menu.html %}
   
-  <h2 class="meta-block__title">My npm packages</h2>
+  <h2 class="meta-block__title title title--h2">Other</h2>
+  <h3 class="meta-block__subttl title title--h3">My NPM packages</h3>
 
   <div class="meta-block__content">
     {% for i in other.links %}

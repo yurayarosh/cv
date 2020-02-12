@@ -2,13 +2,14 @@
 
 <!-- begin meta-blok -->
 <div class="main-meta__block meta-block">
-  <div class="meta-block__icon">skills</div>
+    {% assign mod = 'meta-block__icon' %}
+    {% include iconsHTML/_all-done.html %}
   
-  <h2 class="meta-block__title">Skills</h2>
+  <h2 class="meta-block__title title title--h2">Skills</h2>
 
   <div class="meta-block__content skills">
     {% for i in skills %}
-    <div class="scills__item skill">{{ i.title }}</div>
+    <div class="skills__item skill">{{ i.title }}</div>
     {% endfor %}
   </div>
 </div>

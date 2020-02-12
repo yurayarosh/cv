@@ -1,16 +1,13 @@
-icon: 'projects'
+icon: html-coding
 title: Projects
 metaBlocks:
   - meta:
-    - title: 'Цнтр. багет'
-    - subttl: http://beget.demiweb.pro/
-    - text: ''
+    - title: '<a href="http://beget.demiweb.pro/">Цнтр. багет</a>'
+      text: 'Chalenging task was to add custom smooth scrolling to site. To optimize and remove bugs, after removing native scrolling were added some scripts, were used modern capabilities, such as <code>IntersectionObserver</code> and <code>MutationObserver</code> .'
   - meta:
-    - title: 'Mario'
-    - subttl: 'http://mario-new.demiweb.pro/'
-    - text: ''
+    - title: '<a href="http://mario-new.demiweb.pro/">Mario</a>'
+      text: 'Main challenge was to create animation, using video and its frames on <a href="http://mario-new.demiweb.pro/about-mario/">About page</a>. To make it were used <code>Canvas</code>, <code>position: stiky</code>, <code>scroll</code> event, and <code>IntersectionObserver</code> to delay loading content. Also, for optimization, depending on screen width and device, there are different types of animation.'
   - meta:
-    - title: 'Optimum Led'
-    - subttl: 'https://optimum.red'
-    - text: ''
+    - title: '<a href="https://optimum.red">Optimum Led</a>'
+      text: 'Here was made custom fullpage pagination with using <code>anime.js</code> library. There were a lot of videos and images, so was used <code>IntersectionObserver</code> to optimize their loading.'
     

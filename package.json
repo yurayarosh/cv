@@ -7,9 +7,16 @@
   "scripts": {
     "pdf": "node scripts/export.js",
     "dev": "bundle exec jekyll serve",
-    "build": "jekyll build"
+    "build": "jekyll build",
+    "icons": "gulp svgicons"
   },
   "devDependencies": {
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-cheerio": "^1.0.0",
+    "gulp-cheerio-clean-svg": "github:Hiswe/gulp-cheerio-clean-svg",
+    "gulp-rename": "^2.0.0",
+    "gulp-svgmin": "^2.2.0",
     "puppeteer": "^2.1.1",
     "rxjs": "^6.5.4"
   }

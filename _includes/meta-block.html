@@ -1,10 +1,11 @@
 <!-- begin meta-blok -->
 <div class="main-meta__block meta-block">
   {% if block.icon %}
-  <div class="meta-block__icon">{{ block.icon }}</div>
+  {% assign mod = 'meta-block__icon' %}
+    {% include iconsHTML/_{{ block.icon }}.html %}
   {% endif %}
   
-  <h2 class="meta-block__title">{{ block.title }}</h2>
+  <h2 class="meta-block__title title title--h2">{{ block.title }}</h2>
 
   <div class="meta-block__content">
     {% if block.metaBlocks %}
@@ -12,8 +13,14 @@
         {% for j in i.meta %}
         <!-- begin experience -->
         <div class="meta-block__block experience">
-          <h3 class="experience__title">{{ j.title }}</h3>
+          {% if j.title %}
+          <h3 class="experience__title title title--h3">{{ j.title }}</h3>
+          {% endif %}
+
+          {% if j.subttl %}
           <div class="experience__subttl">{{ j.subttl }}</div>
+          {% endif %}
+          
           {% if j.time %}
             <div class="experience__time"> {{ j.time }}</div>
           {% endif %}
