@@ -4,6 +4,7 @@
       margin-bottom: rem(20)
 
 .meta-block
+  $this: &
   position: relative
   padding-left: rem(30)
   &__icon
@@ -16,9 +17,16 @@
       fill: transparent
       path:nth-child(2)
         fill: currentColor
-
   &__title
     margin-bottom: rem(5)
   &__block
     &:not(:last-child)
       margin-bottom: rem(10)
+
+  &--grid
+    display: grid
+    grid-template-columns: 1fr 1fr
+    grid-gap: .5em
+    #{$this}__title
+      grid-column-start: 1
+      grid-column-end: 3

@@ -1,9 +1,15 @@
-links:
-  - title: 'Custom select'
-    href: 'https://www.npmjs.com/package/select-custom'
-  - title: 'Fullpage pagination'
-    href: 'https://www.npmjs.com/package/fullpage-pagination'
-  - title: 'Popup'
-    href: 'https://www.npmjs.com/package/popup-simple'
-  - title: 'Animate in viewport'
-    href: 'https://www.npmjs.com/package/js-anim'
+blocks:
+  - title: My NPM packages
+    links:
+      - title: 'Custom select'
+        href: 'https://www.npmjs.com/package/select-custom'
+      - title: 'Fullpage pagination'
+        href: 'https://www.npmjs.com/package/fullpage-pagination'
+      - title: 'Popup'
+        href: 'https://www.npmjs.com/package/popup-simple'
+      - title: 'Animate in viewport'
+        href: 'https://www.npmjs.com/package/js-anim'
+  - title: My sandbox
+    links:
+      - title: 'Codesandbox'
+        href: 'https://codesandbox.io/u/yurayarosh/sandboxes'
