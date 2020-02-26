@@ -1,12 +1,13 @@
 icon: html-coding
 title: Projects
+
 metaBlocks:
   - meta:
     - title: '<a href="http://beget.demiweb.pro/" target="_blank">Цнтр. багет</a>'
       text: 'Chalenging task was to add custom smooth scrolling to site. It should be working depending on screen width, user device or page, that user on. Were used modern methods, such as <code>IntersectionObserver</code> and <code>MutationObserver</code> .'
   - meta:
-    - title: '<a href="http://mario-new.demiweb.pro/" target="_blank">Mario</a>'
-      text: 'Main challenge was to create animation, using video and its frames on <a href="http://mario-new.demiweb.pro/about-mario/">About page</a>. To make it were used <code>Canvas</code>, <code>position: stiky</code>, <code>scroll</code> event, and <code>IntersectionObserver</code> to delay loading content. Also, for optimization, depending on screen width and device, there are different types of animation.'
+    - title: '<a href="https://mario-radiators.uk/" target="_blank">Mario</a>'
+      text: 'Main challenge was to create animation, using video and its frames on <a href="https://mario-radiators.uk/about-mario/" target="_blank">About page</a>. To make it were used <code>Canvas</code>, <code>position: stiky</code>, <code>scroll</code> event, and <code>IntersectionObserver</code> to delay loading content. Also, for optimization, depending on screen width and device, there are different types of animation.'
   - meta:
     - title: '<a href="https://optimum.red" target="_blank">Optimum Led</a>'
       text: 'Was made custom fullpage pagination with using <code>anime.js</code> library. There were a lot of videos and images, so was used <code>IntersectionObserver</code> to optimize their loading.'
