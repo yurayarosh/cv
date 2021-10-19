@@ -1,14 +1,21 @@
 blocks:
-  - title: My NPM packages
+  - title: My open source projects
     links:
+      - title: 'Starter kit for HTML / CSS / JS projects Generator'
+        href: 'https://github.com/yurayarosh/generator-front-starter-kit'
+      - title: 'Popup'
+        href: 'https://www.npmjs.com/package/popup-simple'
+      - title: 'Gulp Google Tag Manager'
+        href: 'https://github.com/yurayarosh/gulp-gtm-plugin'
       - title: 'Custom select'
         href: 'https://www.npmjs.com/package/select-custom'
       - title: 'Fullpage pagination'
-        href: 'https://www.npmjs.com/package/fullpage-pagination'
-      - title: 'Popup'
-        href: 'https://www.npmjs.com/package/popup-simple'
+        href: 'https://www.npmjs.com/package/fullpage-pagination'      
       - title: 'Animate in viewport'
         href: 'https://www.npmjs.com/package/js-anim'
+      - title: 'Handle swipe gestures'
+        href: 'https://github.com/yurayarosh/swipelistener-js'
+
   - title: My sandbox
     links:
       - title: 'Codesandbox'

@@ -3,11 +3,16 @@ title: Work experience
 metaBlocks:
   - meta:
     - title: 'Frontend developer'
+      subttl: '<a href="https://clocklab.design/" target="_blank">"Clock Creative Lab"</a>'
+      time: '04/2020 – present time'
+      text: 'Creating markup from mockups, animations, functionality, creating jamstack projects and support PHP projects(yii2, custom framework).'
+  - meta:
+    - title: 'Frontend developer'
       subttl: '<a href="https://demiweb.pro/" target="_blank">"Demiweb"</a>'
-      time: '04/2019 – present time'
-      text: 'Tasks: creating markup from mockups, creating animations, adding some functional behaviour. Stack: Nunjucks, Sass, BEM'
+      time: '04/2019 – 04/2020'
+      text: 'Creating markup from mockups, animations, functional behaviour.'
   - meta:
     - title: 'Junior frontend developer, Frontend developer'
       subttl: '<a href="http://riverco.de/" target="_blank">"Coderiver"</a>'
       time: '08/2017 – 03/2019'
-      text: 'Work in team. Tasks: creating markup from mockups, creating easy animations, WordPress edits. Stack: Nunjucks, Jade/Pug, Sass/Scss, BEM'
+      text: 'Creating markup from mockups, easy animations, WordPress edits.'

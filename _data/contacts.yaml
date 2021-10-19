@@ -1,18 +1,30 @@
 - icons: 
-    - icon: phone
-    - icon: viber
-    - icon: telegram
-  title: phone, telegram, viber
-  text: <a href="tel:+380987486978">+38(098)748-69-78</a>
+    - icon: internet
+  title: website
+  text: <a href="https://yuriiyaroshenko.com" target="_blank" rel="noopener">yuriiyaroshenko.com</a>
 - icons:
-    - icon: skype
-  title: skype
-  text: <a href="skype:yura1-2?chat">yura1-2</a>
+    - icon: linkedin
+  title: linkedin
+  text: <a href="https://www.linkedin.com/in/yurayarosh/" target="_blank" rel="noopener">Yurii Yaroshenko</a>
+- icons:
+    - icon: github
+  title: github
+  text: <a href="https://github.com/yurayarosh" target="_blank" rel="noopener">Yurii Yaroshenko</a>
+- icons: 
+    - icon: phone
+  title: phone
+  text: <a href="tel:+380987486978">+38(098)748-69-78</a>
 - icons:
     - icon: email
   title: email
   text: <a href="mailto:yura12323@gmail.com">yura12323@gmail.com</a>
 - icons:
-    - icon: github
-  title: github
-  text: <a href="https://github.com/yurayarosh" target="_blank">yurayarosh</a>
+  - icon: telegram
+  title: telegram
+  text: <a href="https://t.me/yurayarosh" target="_blank" rel="noopener">@yurayarosh</a>
+- icons:
+    - icon: skype
+  title: skype
+  text: <a href="skype:yura1-2?chat">yura1-2</a>
+
+
